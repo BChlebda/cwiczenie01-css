@@ -1,3 +1,88 @@
 #nastepny ul li:nth-child(8){
     color: aqua;
 }
+
+
+/* co drugi */
+#nastepny ul li:nth-child(odd){
+    background-color: azure;
+}
+
+
+/* co trzeci element */
+#nastepny ul li:nth-child(3n+3){
+    color:red;
+}
+
+/* co trzeci od tylu */
+
+#nastepny ul li:nth-last-child(4n+2){
+    font-size: 27px;
+}
+
+#exmaple_id li {
+    font-size: 50px;
+}
+
+.example li {
+    font-size: 37px;
+}
+
+#pozycjonowanie {
+    background-color: greenyellow;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    right: 0;
+    top:150;
+}
+#pozycjonowanie div:nth-child(2){
+    background-color: coral;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    bottom: 0;
+    right: 0;
+}
+
+#pozycjonowanie div:nth-child(1){
+    background-color: azure;
+    height: 150px;
+    width: 150px;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+}
+
+
+#zewnetrzny {
+  background-color: green;
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+
+
+/* kwadraty */
+.positioned{
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+
+.blue {
+  background-color: blue;
+  right: 0;
+}
+
+.red {
+  background-color: red;
+  bottom: 0;
+}
+
+
+/* #pozycjonowanie div:first-child{
+    background-color: azure;
+    height: 150;
+} */
